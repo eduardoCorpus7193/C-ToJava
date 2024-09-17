@@ -1,14 +1,18 @@
-﻿String line, text = "", sintax = "", skipSintax = "";
+﻿using static System.Runtime.InteropServices.JavaScript.JSType;
+
+string line, text = "", sintax = "", skipSintax = "", character="";
+int j, key = 0;
 
 Dictionary<string, string> sintaxisJava= new Dictionary<string, string>()
 {
     {"public class ", "Public class "},
-    {"public static void main (String[] args)", "public static void Main(string[] args)"},
-    {"{", "{" },
-    {"}", "}" },
+    {"public static void main (String[] args) ", "public static void Main(string[] args) "},
+    {"{ ", "{ " },
+    {"} ", "} " },
     {"(", "(" },
     {")", ")" },
-    {";", ";" },
+    {"; ", "; " },
+    {"\"", "\"" },
     {"System.out.println(", "Console.WriteLine(" }
 };
 
@@ -45,23 +49,63 @@ finally
         sintax += text[i];
         if (sintaxisJava.TryGetValue(sintax, out string result))
         {
-            Console.Write(result);
-            if (sintax == "public class ")
+            //Console.Write(result);
+            switch (sintax)
             {
-                sintax = "";
-                string character = "";
-                int j = i + 1;
-                while (character != " ")
-                {
+                case "public class ":
+                    sintax = "";
                     character = "";
-                    character += text[j];
-                    sintax += character;
-                    j++;
-                    i += 1;
-                }
-                Console.Write(sintax);
-                sintax = "";
+                    j = i + 1;
+                    while (character != " ")
+                    {
+                        character = "";
+                        character += text[j];
+                        sintax += character;
+                        j++;
+                        i += 1;
+                    }
+                    Console.Write(sintax);
+                    sintax = "";
+                    j = 0;
+                    break;
+                case "{ ":
+                    key += 1;
+                    Console.Write("\n");
+                    for (int k = 0; k < key; k++)
+                    {
+                        Console.Write("   ");
+                    }
+                    break;
+                case "} ":
+                    key -= 1;
+                    Console.Write("\n");
+                    for (int k = 0; k < key; k++)
+                    {
+                        Console.Write("   ");
+                    }
+                    break;
+                case "\"":
+                    sintax = "";
+                    character = "";
+                    j = i + 1;
+                    while (character != "\"")
+                    {
+                        character = "";
+                        character += text[j];
+                        sintax += character;
+                        j++;
+                        i += 1;
+                    }
+                    Console.Write(sintax);
+                    sintax = "";
+                    j = 0;
+                    break;
+                default:
+                    //number = "Error";
+                    break;
             }
+            Console.Write(result);
+            sintax = "";
         }
     }
 }
