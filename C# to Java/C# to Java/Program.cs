@@ -5,7 +5,7 @@ int j, key = 0;
 
 Dictionary<string, string> sintaxisJava= new Dictionary<string, string>()
 {
-    {"public class ", "Public class "},
+    {"public class ", "public class "},
     {"public static void main (String[] args) ", "public static void Main(string[] args) "},
     {"{ ", "{ " },
     {"} ", "} " },
@@ -44,12 +44,13 @@ finally
     //Printing if the code were read
     Console.WriteLine("\nDocument read succesfully, printing code in C#");
     //Looping through string
+    Console.WriteLine("using System;");
     for (int i = 0; i < text.Length; i++)
     {
         sintax += text[i];
         if (sintaxisJava.TryGetValue(sintax, out string result))
         {
-            //Console.Write(result);
+            Console.Write(result);
             switch (sintax)
             {
                 case "public class ":
@@ -104,7 +105,7 @@ finally
                     //number = "Error";
                     break;
             }
-            Console.Write(result);
+            //Console.Write(result);
             sintax = "";
         }
     }
