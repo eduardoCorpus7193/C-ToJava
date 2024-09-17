@@ -1,0 +1,14 @@
+C:\Users\Eduardo Corpus\Documents\NTTData\C# to Java\C# to Java\C# to Java\bin\Debug\net8.0\C# to Java.exe
+C:\Users\Eduardo Corpus\Documents\NTTData\C# to Java\C# to Java\C# to Java\bin\Debug\net8.0\C# to Java.deps.json
+C:\Users\Eduardo Corpus\Documents\NTTData\C# to Java\C# to Java\C# to Java\bin\Debug\net8.0\C# to Java.runtimeconfig.json
+C:\Users\Eduardo Corpus\Documents\NTTData\C# to Java\C# to Java\C# to Java\bin\Debug\net8.0\C# to Java.dll
+C:\Users\Eduardo Corpus\Documents\NTTData\C# to Java\C# to Java\C# to Java\bin\Debug\net8.0\C# to Java.pdb
+C:\Users\Eduardo Corpus\Documents\NTTData\C# to Java\C# to Java\C# to Java\obj\Debug\net8.0\C# to Java.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Eduardo Corpus\Documents\NTTData\C# to Java\C# to Java\C# to Java\obj\Debug\net8.0\C# to Java.AssemblyInfoInputs.cache
+C:\Users\Eduardo Corpus\Documents\NTTData\C# to Java\C# to Java\C# to Java\obj\Debug\net8.0\C# to Java.AssemblyInfo.cs
+C:\Users\Eduardo Corpus\Documents\NTTData\C# to Java\C# to Java\C# to Java\obj\Debug\net8.0\C# to Java.csproj.CoreCompileInputs.cache
+C:\Users\Eduardo Corpus\Documents\NTTData\C# to Java\C# to Java\C# to Java\obj\Debug\net8.0\C# to Java.dll
+C:\Users\Eduardo Corpus\Documents\NTTData\C# to Java\C# to Java\C# to Java\obj\Debug\net8.0\refint\C# to Java.dll
+C:\Users\Eduardo Corpus\Documents\NTTData\C# to Java\C# to Java\C# to Java\obj\Debug\net8.0\C# to Java.pdb
+C:\Users\Eduardo Corpus\Documents\NTTData\C# to Java\C# to Java\C# to Java\obj\Debug\net8.0\C# to Java.genruntimeconfig.cache
+C:\Users\Eduardo Corpus\Documents\NTTData\C# to Java\C# to Java\C# to Java\obj\Debug\net8.0\ref\C# to Java.dll
