@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Eduardo Corpus\\Documents\\NTTData\\C# to Java\\C# to Java\\",
+  "WorkspaceRootPath": "C:\\Users\\Eduardo Corpus\\Documents\\NTTData\\C# - Java projects\\C# to Java\\C# to Java\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7CBA8F24-03B5-4A5B-9E44-C3FC41D94A96}|C# to Java\\C# to Java.csproj|c:\\users\\eduardo corpus\\documents\\nttdata\\c# to java\\c# to java\\c# to java\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7CBA8F24-03B5-4A5B-9E44-C3FC41D94A96}|C# to Java\\C# to Java.csproj|c:\\users\\eduardo corpus\\documents\\nttdata\\c# - java projects\\c# to java\\c# to java\\c# to java\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7CBA8F24-03B5-4A5B-9E44-C3FC41D94A96}|C# to Java\\C# to Java.csproj|solutionrelative:c# to java\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Eduardo Corpus\\Documents\\NTTData\\C# to Java\\C# to Java\\C# to Java\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Eduardo Corpus\\Documents\\NTTData\\C# - Java projects\\C# to Java\\C# to Java\\C# to Java\\Program.cs",
               "RelativeDocumentMoniker": "C# to Java\\Program.cs",
-              "ToolTip": "C:\\Users\\Eduardo Corpus\\Documents\\NTTData\\C# to Java\\C# to Java\\C# to Java\\Program.cs*",
+              "ToolTip": "C:\\Users\\Eduardo Corpus\\Documents\\NTTData\\C# - Java projects\\C# to Java\\C# to Java\\C# to Java\\Program.cs*",
               "RelativeToolTip": "C# to Java\\Program.cs*",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAADMAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAEkAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-13T18:31:54.619Z",
               "EditorCaption": ""

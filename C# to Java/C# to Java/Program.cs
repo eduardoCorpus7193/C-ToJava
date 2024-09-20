@@ -8,18 +8,20 @@ Dictionary<string, string> sintaxisJava= new Dictionary<string, string>()
     {"public class ", "public class "},
     {"public static void main (String[] args) ", "public static void Main(string[] args) "},
     {"{ ", "{ " },
+    {" { ", "{ " },
     {"} ", "} " },
     {"(", "(" },
     {")", ")" },
     {"; ", "; " },
     {"\"", "\"" },
-    {"System.out.println(", "Console.WriteLine(" }
+    {"System.out.println(", "Console.WriteLine(" },
+    {"for(", "for(" }
 };
 
 try
 {
     //Find the document with the java code
-    StreamReader sr = new StreamReader("C:\\Users\\Eduardo Corpus\\Documents\\NTTData\\C# to Java\\Sample.txt");
+    StreamReader sr = new StreamReader("C:\\Users\\Eduardo Corpus\\Documents\\NTTData\\C# - Java projects\\C# to Java\\Sample.txt");
     //StreamReader sr = new StreamReader("___"); <--- add the path to your file
     //Read the first line of text
     line = sr.ReadLine();
@@ -69,7 +71,7 @@ finally
                     sintax = "";
                     j = 0;
                     break;
-                case "{ ":
+                case "{ " or " { ":
                     key += 1;
                     Console.Write("\n");
                     for (int k = 0; k < key; k++)
@@ -104,6 +106,34 @@ finally
                 default:
                     //number = "Error";
                     break;
+                case "for(":
+                    sintax = "";
+                    character = "";
+                    j = i + 1;
+                    while (character != ")")
+                    {
+                        character = "";
+                        character += text[j];
+                        sintax += character;
+                        j++;
+                        i += 1;
+                    }
+                    Console.Write(sintax);
+                    for (int k = 0; k < key; k++)
+                    {
+                        Console.Write("   ");
+                    }
+                    sintax = "";
+                    j = 0;
+                    break;
+                case "; ":
+                    Console.Write("\n");
+                    for (int k = 0; k < key; k++)
+                    {
+                        Console.Write("   ");
+                    }
+                    break;
+
             }
             //Console.Write(result);
             sintax = "";

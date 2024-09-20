@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Eduardo Corpus\\Documents\\NTTData\\C# to Java\\C# to Java\\C# to Java\\C# to Java.csproj": {}
+    "C:\\Users\\Eduardo Corpus\\Documents\\NTTData\\C# - Java projects\\C# to Java\\C# to Java\\C# to Java\\C# to Java.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Eduardo Corpus\\Documents\\NTTData\\C# to Java\\C# to Java\\C# to Java\\C# to Java.csproj": {
+    "C:\\Users\\Eduardo Corpus\\Documents\\NTTData\\C# - Java projects\\C# to Java\\C# to Java\\C# to Java\\C# to Java.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Eduardo Corpus\\Documents\\NTTData\\C# to Java\\C# to Java\\C# to Java\\C# to Java.csproj",
+        "projectUniqueName": "C:\\Users\\Eduardo Corpus\\Documents\\NTTData\\C# - Java projects\\C# to Java\\C# to Java\\C# to Java\\C# to Java.csproj",
         "projectName": "C# to Java",
-        "projectPath": "C:\\Users\\Eduardo Corpus\\Documents\\NTTData\\C# to Java\\C# to Java\\C# to Java\\C# to Java.csproj",
+        "projectPath": "C:\\Users\\Eduardo Corpus\\Documents\\NTTData\\C# - Java projects\\C# to Java\\C# to Java\\C# to Java\\C# to Java.csproj",
         "packagesPath": "C:\\Users\\Eduardo Corpus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Eduardo Corpus\\Documents\\NTTData\\C# to Java\\C# to Java\\C# to Java\\obj\\",
+        "outputPath": "C:\\Users\\Eduardo Corpus\\Documents\\NTTData\\C# - Java projects\\C# to Java\\C# to Java\\C# to Java\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Eduardo Corpus\\AppData\\Roaming\\NuGet\\NuGet.Config",
