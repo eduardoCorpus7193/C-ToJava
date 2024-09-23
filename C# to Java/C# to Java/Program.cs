@@ -3,21 +3,6 @@
 string line, text = "", sintax = "", skipSintax = "", character="";
 int j, key = 0;
 
-Dictionary<string, string> sintaxisJava= new Dictionary<string, string>()
-{
-    {"public class ", "public class "},
-    {"public static void main (String[] args) ", "public static void Main(string[] args) "},
-    {"{ ", "{ " },
-    {" { ", "{ " },
-    {"} ", "} " },
-    {"(", "(" },
-    {")", ")" },
-    {"; ", "; " },
-    {"\"", "\"" },
-    {"System.out.println(", "Console.WriteLine(" },
-    {"for(", "for(" }
-};
-
 try
 {
     //Find the document with the java code
@@ -50,7 +35,7 @@ finally
     for (int i = 0; i < text.Length; i++)
     {
         sintax += text[i];
-        if (sintaxisJava.TryGetValue(sintax, out string result))
+        if (Diccionario.sintaxisJava.TryGetValue(sintax, out string result))
         {
             Console.Write(result);
             switch (sintax)
@@ -106,7 +91,7 @@ finally
                 default:
                     //number = "Error";
                     break;
-                case "for(":
+                case "for(" or "while(":
                     sintax = "";
                     character = "";
                     j = i + 1;

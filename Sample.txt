@@ -1,1 +1,1 @@
-public class HolaMundo { public static void main (String[] args) { System.out.println("Hola mundo!"); for(int i=500;i<=1000;i+=2) { System.out.println("Imprimiendo 250 veces"); } } } 
+public class HolaMundo { public static void main (String[] args) { System.out.println("Hola mundo!"); for(int i=500;i<=1000;i+=2) { System.out.println("Imprimiendo 250 veces"); } while(numero <= 500) { System.out.println("Ingrese un numero "); numero = sc.nextInt(); } } } 

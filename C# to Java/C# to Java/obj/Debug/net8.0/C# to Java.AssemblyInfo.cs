@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("C# to Java")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a052ee961dbfbb4ac245170c67e9b422f6147d0c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8a7dd3451c859d01cc8af612be04d8315eb32cfb")]
 [assembly: System.Reflection.AssemblyProductAttribute("C# to Java")]
 [assembly: System.Reflection.AssemblyTitleAttribute("C# to Java")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
